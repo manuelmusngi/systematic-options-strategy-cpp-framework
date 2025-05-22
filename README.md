@@ -5,7 +5,7 @@ This C++ project provides a modular and extensible framework for developing, tes
 #### project structure
 OptionsTradingSystem/\
 ├── include/\
-│   ├── core/\
+│   ├── primary/\
 │   │   ├── MarketData.hpp\
 │   │   ├── OrderManager.hpp\
 │   │   ├── PositionManager.hpp\
@@ -19,7 +19,7 @@ OptionsTradingSystem/\
 │       ├── ConfigLoader.hpp\
 │       └── MathUtils.hpp\
 ├── src/\
-│   ├── core/\
+│   ├── primary/\
 │   │   ├── MarketData.cpp\
 │   │   ├── OrderManager.cpp\
 │   │   ├── PositionManager.cpp\
