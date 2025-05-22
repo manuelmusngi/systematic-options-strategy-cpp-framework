@@ -6,41 +6,41 @@ This C++ project provides a modular and extensible framework for developing, tes
 OptionsTradingSystem/\
 ├── include/\
 │   ├── core/\
-│   │   ├── MarketData.hpp
-│   │   ├── OrderManager.hpp
-│   │   ├── PositionManager.hpp
-│   │   ├── Strategy.hpp
-│   │   ├── RiskManager.hpp
-│   │   └── Logger.hpp
+│   │   ├── MarketData.hpp\
+│   │   ├── OrderManager.hpp\
+│   │   ├── PositionManager.hpp\
+│   │   ├── Strategy.hpp\
+│   │   ├── RiskManager.hpp\
+│   │   └── Logger.hpp\
 │   ├── models/\
-│   │   ├── Option.hpp
-│   │   └── Greeks.hpp
+│   │   ├── Option.hpp\
+│   │   └── Greeks.hpp\
 │   └── utils/\
-│       ├── ConfigLoader.hpp
-│       └── MathUtils.hpp
+│       ├── ConfigLoader.hpp\
+│       └── MathUtils.hpp\
 ├── src/\
 │   ├── core/\
-│   │   ├── MarketData.cpp
-│   │   ├── OrderManager.cpp
-│   │   ├── PositionManager.cpp
-│   │   ├── Strategy.cpp
-│   │   ├── RiskManager.cpp
-│   │   └── Logger.cpp
+│   │   ├── MarketData.cpp\
+│   │   ├── OrderManager.cpp\
+│   │   ├── PositionManager.cpp\
+│   │   ├── Strategy.cpp\
+│   │   ├── RiskManager.cpp\
+│   │   └── Logger.cpp\
 │   ├── models/\
-│   │   ├── Option.cpp
-│   │   └── Greeks.cpp
+│   │   ├── Option.cpp\
+│   │   └── Greeks.cpp\
 │   ├── utils/\
-│   │   ├── ConfigLoader.cpp
-│   │   └── MathUtils.cpp
-│   └── main.cpp
+│   │   ├── ConfigLoader.cpp\
+│   │   └── MathUtils.cpp\
+│   └── main.cpp\
 ├── strategies/\
-│   ├── IronCondorStrategy.hpp
-│   └── IronCondorStrategy.cpp
+│   ├── IronCondorStrategy.hpp\
+│   └── IronCondorStrategy.cpp\
 ├── tests/\
-│   ├── test_MarketData.cpp
-│   ├── test_Strategy.cpp
+│   ├── test_MarketData.cpp\
+│   ├── test_Strategy.cpp\
 │   └── ...
-├── CMakeLists.txt
+├── CMakeLists.txt\
 └── config/\
     └── strategy_config.json
 
