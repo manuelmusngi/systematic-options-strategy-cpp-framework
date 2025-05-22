@@ -3,45 +3,45 @@
 This C++ project provides a modular and extensible framework for developing, testing, and executing systematic options trading strategies, with an emphasis on SPX index options. Built for both backtesting and live trading, the architecture supports strategy plug-ins, real-time market data handling, risk management, and position tracking.
 
 #### project structure
-OptionsTradingSystem/
-├── include/
-│   ├── core/
+OptionsTradingSystem/\
+├── include/\
+│   ├── core/\
 │   │   ├── MarketData.hpp
 │   │   ├── OrderManager.hpp
 │   │   ├── PositionManager.hpp
 │   │   ├── Strategy.hpp
 │   │   ├── RiskManager.hpp
 │   │   └── Logger.hpp
-│   ├── models/
+│   ├── models/\
 │   │   ├── Option.hpp
 │   │   └── Greeks.hpp
-│   └── utils/
+│   └── utils/\
 │       ├── ConfigLoader.hpp
 │       └── MathUtils.hpp
-├── src/
-│   ├── core/
+├── src/\
+│   ├── core/\
 │   │   ├── MarketData.cpp
 │   │   ├── OrderManager.cpp
 │   │   ├── PositionManager.cpp
 │   │   ├── Strategy.cpp
 │   │   ├── RiskManager.cpp
 │   │   └── Logger.cpp
-│   ├── models/
+│   ├── models/\
 │   │   ├── Option.cpp
 │   │   └── Greeks.cpp
-│   ├── utils/
+│   ├── utils/\
 │   │   ├── ConfigLoader.cpp
 │   │   └── MathUtils.cpp
 │   └── main.cpp
-├── strategies/
+├── strategies/\
 │   ├── IronCondorStrategy.hpp
 │   └── IronCondorStrategy.cpp
-├── tests/
+├── tests/\
 │   ├── test_MarketData.cpp
 │   ├── test_Strategy.cpp
 │   └── ...
 ├── CMakeLists.txt
-└── config/
+└── config/\
     └── strategy_config.json
 
 
