@@ -18,16 +18,18 @@ Concretely, entry/exit rules are framed as control objectives (state = spot, IV 
 The architecture maps the four research themes into concrete modules:
 
 - Control‑based strategy: entry/exit as stochastic control objectives (state = spot, IV surface, time‑to‑expiry).
-
 - Pluggable pricers & IV simulators: empirical/ML or rough‑vol models can be swapped into the pricer interface for realistic option paths and Greeks.
-
 - Empirical hedging & sizing: RiskManager encodes hedging cadence, transaction costs, and sizing rules from hedging studies.
-
 - Data & calibration pipeline: ingest historical SPX/VIX/option chains, build IV surfaces, calibrate multi‑factor models or train empirical simulators for backtests.
 
 #### Short technical summary
 
-The codebase remains modular: strategies implement a control interface; market data supports both live (Yahoo polling or vendor feeds) and replay; pricers and IV simulators are swappable; and risk/position managers enforce empirically motivated constraints. This structure lets researchers and engineers iterate on model choices (empirical surface, NN simulators, rough‑vol calibration) without rewriting core execution and bookkeeping logic.
+The codebase remains modular: 
+- strategies implement a control interface; market data supports both live (Yahoo polling or vendor feeds) and replay;
+- pricers and IV simulators are swappable
+- risk/position managers enforce empirically motivated constraints.
+
+This structure lets researchers and engineers iterate on model choices (empirical surface, NN simulators, rough‑vol calibration) without rewriting core execution and bookkeeping logic.
  
 #### License
 This project is licensed under the [MIT License](https://github.com/manuelmusngi/regime_switching_models/edit/main/LICENSE).
