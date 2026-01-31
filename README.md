@@ -4,7 +4,7 @@ This C++ framework is a modular, extensible platform for designing, backtesting,
 
 #### Academic grounding
 
-The framework is explicitly informed by four research themes common in recent arXiv/SSRN literature: 
+📊 The framework is explicitly informed by four research themes common in recent arXiv/SSRN literature: 
 
 - stochastic control for multi‑leg option portfolios 
 - empirical modeling of option price and implied‑volatility surface dynamics,
@@ -31,6 +31,9 @@ The codebase remains modular:
 - risk/position managers enforce empirically motivated constraints.
 
 This structure lets researchers and engineers iterate on model choices (empirical surface, NN simulators, rough‑vol calibration) without rewriting core execution and bookkeeping logic.
+
+🏗️ Project Architecture
+
 
 #### Research Reference Foundation
 
