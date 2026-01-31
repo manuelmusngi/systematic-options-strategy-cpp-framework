@@ -34,6 +34,58 @@ This structure lets researchers and engineers iterate on model choices (empirica
 
 🏗️ Project Architecture
 
+OptionsTradingSystem/\
+├── CMakeLists.txt\
+├── include/\
+│   ├── core/\
+│   │   ├── MarketData.hpp\
+│   │   ├── YahooMarketData.hpp\
+│   │   ├── OrderManager.hpp\
+│   │   ├── PositionManager.hpp\
+│   │   ├── Strategy.hpp\
+│   │   ├── RiskManager.hpp\
+│   │   └── Logger.hpp\
+│   ├── models/\
+│   │   ├── Option.hpp\
+│   │   ├── Greeks.hpp\
+│   │   └── IVSurface.hpp\
+│   ├── pricing/\
+│   │   ├── Pricer.hpp\
+│   │   └── RoughVolModel.hpp\
+│   └── utils/\
+│       ├── ConfigLoader.hpp\
+│       └── MathUtils.hpp\
+├── src/\
+│   ├── core/\
+│   │   ├── MarketData.cpp\
+│   │   ├── YahooMarketData.cpp\
+│   │   ├── OrderManager.cpp\
+│   │   ├── PositionManager.cpp\
+│   │   ├── RiskManager.cpp\
+│   │   └── Logger.cpp\
+│   ├── models/\
+│   │   ├── Option.cpp\
+│   │   ├── Greeks.cpp\
+│   │   └── IVSurface.cpp\
+│   ├── pricing/\
+│   │   ├── Pricer_BlackScholes.cpp\
+│   │   └── RoughVolModel.cpp\
+│   ├── strategies/
+│   │   ├── IronCondorStrategy.cpp\
+│   └── main.cpp
+├── strategies/
+│   └── IronCondorStrategy.hpp\
+├── data/\
+│   └── (historical CSVs, calibration outputs)\
+├── tests/\
+│   ├── CMakeLists.txt\
+│   ├── test_MarketData.cpp\
+│   ├── test_IVSurface.cpp\
+│   └── test_Strategy.cpp\
+└── config/\
+    └── strategy_config.json
+
+
 
 #### Research Reference Foundation
 
