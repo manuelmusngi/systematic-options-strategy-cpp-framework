@@ -1,6 +1,6 @@
 #### Project overview
 
-This C++ framework is a modular, extensible platform for designing, backtesting, and deploying systematic options strategies focused on SPX index options. It combines a clean runtime architecture—market‑data ingestion, pluggable strategy modules, order and position management, and risk controls—with a research‑driven approach so strategy logic, sizing, and hedging are informed by contemporary academic methods rather than ad‑hoc heuristics.
+This C++ framework is a modular, extensible platform for designing, backtesting, and deploying systematic options strategies focused on SPX index options, but can be implemented to any instruments with Options contracts. It combines a clean runtime architecture—market‑data ingestion, pluggable strategy modules, order and position management, and risk controls—with a research‑driven approach so strategy logic, sizing, and hedging are informed by contemporary academic methods rather than ad‑hoc heuristics.
 
 #### Academic grounding
 
