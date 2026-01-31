@@ -87,7 +87,7 @@ OptionsTradingSystem/\
 
 
 
-#### Research Reference Foundation
+📚 Research Reference Foundation
 
 - [Stochastic Optimal Control of Iron Condor Portfolios for Profitability and Risk Management](https://arxiv.org/abs/2501.12397?utm_source=copilot.com)
 - [Construction and Hedging of Equity Index Options Portfolios](https://arxiv.org/abs/2407.13908)
