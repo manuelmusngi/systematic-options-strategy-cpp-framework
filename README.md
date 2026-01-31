@@ -25,7 +25,8 @@ The architecture maps the four research themes into concrete modules:
 #### Short technical summary
 
 The codebase remains modular: 
-- strategies implement a control interface; market data supports both live (Yahoo polling or vendor feeds) and replay;
+- strategies implement a control interface
+- market data supports both live (Yahoo polling or vendor feeds) and replay;
 - pricers and IV simulators are swappable
 - risk/position managers enforce empirically motivated constraints.
 
