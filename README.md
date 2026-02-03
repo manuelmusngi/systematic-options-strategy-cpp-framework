@@ -77,11 +77,6 @@ OptionsTradingSystem/\
 │   └── IronCondorStrategy.hpp\
 ├── data/\
 │   └── (historical CSVs, calibration outputs)\
-├── tests/\
-│   ├── CMakeLists.txt\
-│   ├── test_MarketData.cpp\
-│   ├── test_IVSurface.cpp\
-│   └── test_Strategy.cpp\
 └── config/\
     └── strategy_config.json
 
