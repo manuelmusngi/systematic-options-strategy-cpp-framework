@@ -70,10 +70,10 @@ OptionsTradingSystem/\
 │   ├── pricing/\
 │   │   ├── Pricer_BlackScholes.cpp\
 │   │   └── RoughVolModel.cpp\
-│   ├── strategies/
+│   ├── strategies/\
 │   │   ├── IronCondorStrategy.cpp\
-│   └── main.cpp
-├── strategies/
+│   └── main.cpp\
+├── strategies/\
 │   └── IronCondorStrategy.hpp\
 ├── data/\
 │   └── (historical CSVs, calibration outputs)\
