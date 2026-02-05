@@ -46,7 +46,7 @@ OptionsTradingSystem/\
 │   │   ├── [RiskManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/RiskManager.hpp)\
 │   │   └── [Logger.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/Logger.hpp)\
 │   ├── models/\
-│   │   ├── Option.hpp\
+│   │   ├── [Option.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Option.hpp)\
 │   │   ├── Greeks.hpp\
 │   │   └── IVSurface.hpp\
 │   ├── pricing/\
