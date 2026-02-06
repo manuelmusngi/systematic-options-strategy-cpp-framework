@@ -47,7 +47,7 @@ OptionsTradingSystem/\
 │   │   └── [Logger.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/Logger.hpp)\
 │   ├── models/\
 │   │   ├── [Option.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Option.hpp)\
-│   │   ├── Greeks.hpp\
+│   │   ├── [Greeks.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Greeks.hpp)\
 │   │   └── IVSurface.hpp\
 │   ├── pricing/\
 │   │   ├── Pricer.hpp\
