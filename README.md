@@ -48,7 +48,7 @@ OptionsTradingSystem/\
 │   ├── models/\
 │   │   ├── [Option.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Option.hpp)\
 │   │   ├── [Greeks.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Greeks.hpp)\
-│   │   └── IVSurface.hpp\
+│   │   └── [IVSurface.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/IVSurface.hpp)\
 │   ├── pricing/\
 │   │   ├── Pricer.hpp\
 │   │   └── RoughVolModel.hpp\
