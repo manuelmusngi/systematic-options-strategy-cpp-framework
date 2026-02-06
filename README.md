@@ -51,7 +51,7 @@ OptionsTradingSystem/\
 │   │   └── [IVSurface.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/IVSurface.hpp)\
 │   ├── pricing/\
 │   │   ├── [Pricer.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/pricing/Pricer.hpp)\
-│   │   └── RoughVolModel.hpp\
+│   │   └── [RoughVolModel.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/pricing/RoughVolModel.hpp)\
 │   └── utils/\
 │       ├── ConfigLoader.hpp\
 │       └── MathUtils.hpp\
