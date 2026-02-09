@@ -38,7 +38,6 @@ OptionsTradingSystem/\
 ├── CMakeLists.txt\
 ├── include/\
 │   ├── core/\
-│   │   ├── [MarketData.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/MarketData.hpp)\
 │   │   ├── [YahooMarketData.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/YahooMarketData.hpp)\
 │   │   ├── [OrderManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/OrderManager.hpp)\
 │   │   ├── [PositionManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/OrderManager.hpp)\
