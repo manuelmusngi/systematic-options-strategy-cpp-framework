@@ -70,7 +70,7 @@ OptionsTradingSystem/\
 ├── tests/\
 │ ├── test_MarketData.cpp\
 │ ├── test_Strategy.cpp\
-│ └── ... ├── CMakeLists.txt
+│ └── ... ├── CMakeLists.txt\
 └── config/\
 └── strategy_config.json
 
