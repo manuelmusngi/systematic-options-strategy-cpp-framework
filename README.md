@@ -39,8 +39,7 @@ OptionsTradingSystem/\
 ├── include/\
 │   ├── core/\
 │   │   ├── [YahooMarketData.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/YahooMarketData.hpp)\
-│   │   ├── [OrderManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/OrderManager.hpp)\
-│   │   ├── [PositionManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/OrderManager.hpp)\
+│   │   ├── PositionManager.hpp\
 │   │   ├── [Strategy.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/OrderManager.hpp)\
 │   │   ├── [RiskManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/RiskManager.hpp)\
 │   │   └── [Logger.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/Logger.hpp)\
