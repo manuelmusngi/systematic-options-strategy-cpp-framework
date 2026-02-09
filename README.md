@@ -56,8 +56,7 @@ OptionsTradingSystem/\
 │       └── [MathUtils.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/utils/MathUtils.hpp)\
 ├── src/\
 │   ├── core/\
-│   │   ├── MarketData.cpp\
-│   │   ├── YahooMarketData.cpp\
+│   │   ├── [YahooMarketData.cpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/src/core/YahooMarketData.cpp)\
 │   │   ├── OrderManager.cpp\
 │   │   ├── PositionManager.cpp\
 │   │   ├── RiskManager.cpp\
