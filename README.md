@@ -35,46 +35,44 @@ This structure lets researchers and engineers iterate on model choices (empirica
 🏗️ Project Architecture
 
 OptionsTradingSystem/\
-├── CMakeLists.txt\
 ├── include/\
-│   ├── core/\
-│   │   ├── [YahooMarketData.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/YahooMarketData.hpp)\
-│   │   ├── PositionManager.hpp\
-│   │   ├── [Strategy.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/OrderManager.hpp)\
-│   │   ├── [RiskManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/RiskManager.hpp)\
-│   │   └── [Logger.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/core/Logger.hpp)\
-│   ├── models/\
-│   │   ├── [Option.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Option.hpp)\
-│   │   ├── [Greeks.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/Greeks.hpp)\
-│   │   └── [IVSurface.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/models/IVSurface.hpp)\
-│   ├── pricing/\
-│   │   ├── [Pricer.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/pricing/Pricer.hpp)\
-│   │   └── [RoughVolModel.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/pricing/RoughVolModel.hpp)\
-│   └── utils/\
-│       ├── [ConfigLoader.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/utils/ConfigLoader.hpp)\
-│       └── [MathUtils.hpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/include/utils/MathUtils.hpp)\
+│ ├── primary/\
+│ │ ├── MarketData.hpp\
+│ │ ├── OrderManager.hpp\
+│ │ ├── PositionManager.hpp\
+│ │ ├── Strategy.hpp\
+│ │ ├── RiskManager.hpp\
+│ │ └── Logger.hpp\
+│ ├── models/\
+│ │ ├── Option.hpp\
+│ │ └── Greeks.hpp\
+│ └── utils/\
+│ ├── ConfigLoader.hpp\
+│ └── MathUtils.hpp\
 ├── src/\
-│   ├── core/\
-│   │   ├── [YahooMarketData.cpp](https://github.com/manuelmusngi/systematic-options-strategy-CPP-framework/blob/main/src/core/YahooMarketData.cpp)\
-│   │   ├── PositionManager.cpp\
-│   │   ├── RiskManager.cpp\
-│   │   └── Logger.cpp\
-│   ├── models/\
-│   │   ├── Option.cpp\
-│   │   ├── Greeks.cpp\
-│   │   └── IVSurface.cpp\
-│   ├── pricing/\
-│   │   ├── Pricer_BlackScholes.cpp\
-│   │   └── RoughVolModel.cpp\
-│   ├── strategies/\
-│   │   ├── IronCondorStrategy.cpp\
-│   └── main.cpp\
+│ ├── primary/\
+│ │ ├── MarketData.cpp\
+│ │ ├── OrderManager.cpp\
+│ │ ├── PositionManager.cpp\
+│ │ ├── Strategy.cpp\
+│ │ ├── RiskManager.cpp\
+│ │ └── Logger.cpp\
+│ ├── models/\
+│ │ ├── Option.cpp\
+│ │ └── Greeks.cpp\
+│ ├── utils/\
+│ │ ├── ConfigLoader.cpp\
+│ │ └── MathUtils.cpp\
+│ └── main.cpp\
 ├── strategies/\
-│   └── IronCondorStrategy.hpp\
-├── data/\
-│   └── (historical CSVs, calibration outputs)\
+│ ├── IronCondorStrategy.hpp\
+│ └── IronCondorStrategy.cpp\
+├── tests/\
+│ ├── test_MarketData.cpp\
+│ ├── test_Strategy.cpp\
+│ └── ... ├── CMakeLists.txt
 └── config/\
-    └── strategy_config.json
+└── strategy_config.json
 
 
 
