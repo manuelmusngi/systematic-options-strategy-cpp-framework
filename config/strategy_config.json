@@ -1,0 +1,7 @@
+{
+  "underlying": "SPX",
+  "target_dte": 30,
+  "short_delta_target": 0.16,
+  "width": 50.0,
+  "quantity": 1
+}
