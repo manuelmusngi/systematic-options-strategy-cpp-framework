@@ -68,7 +68,7 @@ OptionsTradingSystem/\
 │ ├── IronCondorStrategy.hpp\
 │ └── IronCondorStrategy.cpp\
 └── config/\
-└── [strategy_config.json(Example)]()
+└── strategy_config.json(Example)
 
 
 
