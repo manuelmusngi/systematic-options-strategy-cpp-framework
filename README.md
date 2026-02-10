@@ -67,12 +67,8 @@ OptionsTradingSystem/\
 ├── strategies/\
 │ ├── IronCondorStrategy.hpp\
 │ └── IronCondorStrategy.cpp\
-├── tests/\
-│ ├── test_MarketData.cpp\
-│ ├── test_Strategy.cpp\
-│ └── ... ├── CMakeLists.txt\
 └── config/\
-└── strategy_config.json
+└── [strategy_config.json(Example)]()
 
 
 
