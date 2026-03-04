@@ -53,7 +53,7 @@ OptionsTradingSystem/\
 │ ├── primary/\
 │ │ ├── MarketData.cpp\
 │ │ ├── OrderManager.cpp\
-│ │ ├── PositionManager.cpp\
+│ │ ├── [PositionManager.cpp](https://github.com/manuelmusngi/systematic-options-strategy-cpp-framework/blob/main/include/primary/PositionManager.hpp)\
 │ │ ├── Strategy.cpp\
 │ │ ├── RiskManager.cpp\
 │ │ └── Logger.cpp\
