@@ -37,7 +37,7 @@ This structure lets researchers and engineers iterate on model choices (empirica
 OptionsTradingSystem/\
 ├── include/\
 │ ├── primary/\
-│ │ ├── MarketData.hpp\
+│ │ ├── [MarketData.hpp](https://github.com/manuelmusngi/systematic-options-strategy-cpp-framework/blob/main/include/primary/MarketData.hpp)\
 │ │ ├── OrderManager.hpp\
 │ │ ├── PositionManager.hpp\
 │ │ ├── Strategy.hpp\
