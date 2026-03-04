@@ -42,7 +42,7 @@ OptionsTradingSystem/\
 │ │ ├── [PositionManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-cpp-framework/blob/main/include/primary/PositionManager.hpp)\
 │ │ ├── [Strategy.hpp](https://github.com/manuelmusngi/systematic-options-strategy-cpp-framework/blob/main/include/primary/Strategy.hpp)\
 │ │ ├── [RiskManager.hpp](https://github.com/manuelmusngi/systematic-options-strategy-cpp-framework/blob/main/include/primary/RiskManager.hpp)\
-│ │ └── Logger.hpp\
+│ │ └── [Logger.hpp](https://github.com/manuelmusngi/systematic-options-strategy-cpp-framework/blob/main/include/primary/Logger.hpp)\
 │ ├── models/\
 │ │ ├── Option.hpp\
 │ │ └── Greeks.hpp\
